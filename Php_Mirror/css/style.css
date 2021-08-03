@@ -1,0 +1,311 @@
+
+
+header{
+    background: coral;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: darkgoldenrod 3px solid;
+    font-family: cursive;
+}
+
+header a{
+    color: darkblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding:0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: cursive;
+}
+
+header a:hover{
+    color: khaki;
+    font-weight: bold;
+}
+
+img .move:hover{
+    transform:rotate();
+}
+
+body{font: 15px/1.5 Arial, Helvetica, sans-serif;
+padding:0;
+margin:0;
+background-color: burlywood;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+input.margin {
+    text-align: center;
+}
+
+.margin {
+    margin-bottom: 10px;
+
+
+
+}
+
+#gmail2Email {
+    float: right;
+    margin: auto;
+    padding-bottom:10px;    
+    }
+
+
+.container {
+    overflow: hidden;
+  }
+  
+.content {
+    background:lightblue;
+    padding:5px;
+    margin-left: 195px;
+  }
+
+
+#devs .developers .developers2 {
+height: 100px;
+width:  100px;
+}
+
+
+.button_1{
+    height:38px;
+    background: salmon;
+    border:0;
+    padding-left:2opx;
+    padding-right:20px;
+    color:silver;
+    text-align: center;
+}
+.button_1:hover{
+    color: khaki;
+    font-weight: bold;
+}
+
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/*showcase*/
+
+
+/* o-repeat 0 -400px /*no-repeat -400px*/; */
+
+#showcase h1{
+    font-family: cursive;
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom:10px;
+    color:black;
+}
+
+showcase p{
+    font-size: 30px;
+    text-shadow:slategray;
+}
+
+
+#newsletter{
+    padding:15px;
+    color: rgb(0, 0, 0);
+    background:coral;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+
+/*Boxes*/
+#boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+}
+
+
+/*Sidebar*/
+
+
+
+/*Main-col*/
+
+
+
+/*Services*/
+ul#Orders li{
+    list-style: none;
+    padding:20px;
+    border:#cccccc solid 1px;
+    background:#b8964da6;
+}
+
+footer{
+    padding:20px;
+    margin-top: 20px;
+    color: black;
+    background-color:chocolate;
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    header #branding,
+        header nav,
+        header nav li,
+        #newsletter h1,
+        #boxes .box,
+        #gmail2Email,
+        #input,
+        #my_pics,
+        #devs
+        footer,
+        .button_1,
+        #separator, 
+        #input,
+        h1 #kaptitle,
+        #kaptitle3,
+        #kaptitle2,
+        center
+        {
+        float: none;
+        text-align: center;
+        width:100%;
+    }
+    
+    header{
+        padding-bottom:20px;
+    }
+
+    showcase h1{
+        margin-top:40px;
+    }
+
+    #newsletter .button .qoute button{
+        display: block;
+        width: 100%;
+
+    }
+
+    #newsletter form input[type="email"], qoute input, .qoute input, .qoute textarea{
+        width:100%;
+        margin-bottom:5px;
+    }
+
+/* Text Transform with javascript*/
+    .highlight{
+        color: black;
+        }
+
+        span{
+            opacity: 0;
+            transition: all 0.4s ease;
+            display: inline-block;
+            transform: translateX(50px);
+            color:rgb(177, 143, 34);
+
+        }
+
+        span.fade {
+
+            opacity: 1;
+            transform: perspective(20px); 
+            color: rgb(0, 0, 0);
+        }
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        
+        .pre-header {
+            background-color: #111618;
+            height: 60px;
+            color: #fff;
+            padding-top: 15px;
+        
+        }
+        
+        .pre-header .secondary-menu {
+            list-style: none;
+        }
+        
+        .pre-header .secondary-menu li {
+            display: inline-block;
+            margin-left: 15px;
+        }
+        
+        .pre-header .secondary-menu li a {
+            color: #787374;
+            text-transform: uppercase;
+        }
+        
+        .main-nav .main-menu {
+            list-style: none;
+            margin-top: 15px;
+        }
+        
+        .main-nav .main-menu li {
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        .main-nav .main-menu li a {
+            color: #767676;
+            text-transform: uppercase;
+        }
+        
+        .main-nav img {
+            margin-top: 10px;
+        }
+        
+
+        .form-invalid{
+            outline: 3px solid red !important;
+        }
+    
+}
